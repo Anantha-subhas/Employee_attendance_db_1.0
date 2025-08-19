@@ -1,6 +1,6 @@
 Absolutely! Here's a comprehensive `README.md` draft for your project, including workflow, endpoints, and important notes:
 
-````markdown
+
 # Employee Attendance System
 
 A simple employee management and attendance tracking system built with **Kotlin**, **Dropwizard**, **JDBI**, and **PostgreSQL**.  
@@ -44,7 +44,6 @@ CREATE TABLE employees (
     department VARCHAR(50) NOT NULL,
     reporting_to VARCHAR(50)
 );
-````
 
 ### Attendance Table
 
