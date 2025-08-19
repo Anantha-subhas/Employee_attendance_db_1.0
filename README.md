@@ -175,13 +175,3 @@ psql -h localhost -p 5433 -U dev_user -d dev_database
 }
 ```
 
----
-
-This workflow captures **employee creation**, **attendance logging**, **retrieval**, and **working hour calculation** in a clean service-oriented architecture.
-
-```
-
-I can also make a **diagram showing the workflow** of Employee → Attendance → Working Hours → Reports if you want, which you can embed in the README.  
-
-Do you want me to create that diagram too?
-```
