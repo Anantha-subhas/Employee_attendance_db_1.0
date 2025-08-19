@@ -1,0 +1,17 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9090
+  adminConnectors:
+    - type: http
+      port: 9091
+
+database:
+  driverClass: org.postgresql.Driver
+  user: dev_user
+  password: dev_pass
+  url: jdbc:postgresql://localhost:5433/dev_database
+  maxSize: 10
+  minSize: 2
+  initialSize: 2
+  validationQuery: "SELECT 1"
